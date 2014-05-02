@@ -1,0 +1,34 @@
+{
+  "name": "unicode-slug",
+  "version": "0.0.1",
+  "description": "Generates URL slugs, with support for transliteration of non-Latin characters",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Everyplay/unicode-slug"
+  },
+  "keywords": [
+    "transliterate",
+    "i18n",
+    "slug",
+    "slugify"
+  ],
+  "author": "Mikko Lehtinen <mikko@applifier.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Everyplay/unicode-slug/issues"
+  },
+  "homepage": "https://github.com/Everyplay/unicode-slug",
+  "dependencies": {
+    "cld": "~2.0.0",
+    "hepburn": "~0.5.2",
+    "pinyin": "~2.2.1",
+    "unidecode": "~0.1.3"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2"
+  }
+}
