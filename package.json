@@ -23,9 +23,6 @@
   },
   "homepage": "https://github.com/Everyplay/unicode-slug",
   "dependencies": {
-    "cld": "~2.0.0",
-    "hepburn": "~0.5.2",
-    "pinyin": "~2.2.1",
     "unidecode": "~0.1.3"
   },
   "devDependencies": {
