@@ -1,6 +1,6 @@
 {
   "name": "unicode-slug",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generates URL slugs, with support for transliteration of non-Latin characters",
   "main": "index.js",
   "scripts": {
